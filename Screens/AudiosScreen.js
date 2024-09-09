@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const VideosScreen = () => {
+const AudiosScreen = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.welcomeText}>Bienvenido a Audios</Text>
@@ -22,4 +22,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default VideosScreen;
+export default AudiosScreen;

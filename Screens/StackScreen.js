@@ -8,7 +8,9 @@ import PerfilScreen from './PerfilScreen';
 import VideosScreen from './VideosScreen';  
 import FotosScreen from './FotosScreen';    
 import AudiosScreen from './AudiosScreen';  
-import OcioScreen from './OcioScreen';      
+import OcioScreen from './OcioScreen';
+import TakeCameraScreen from './TakeCameraScreen';
+import UploadVideoScreen from './UploadVideoScreen'
 
 const Stack = createStackNavigator();
 
@@ -74,6 +76,24 @@ const StackScreen = () => {
         <Stack.Screen
           name="Ocio"
           component={OcioScreen}
+          options={{
+            headerStyle: { backgroundColor: 'purple' },
+            headerTintColor: 'white',
+            headerTitleStyle: { fontWeight: 'bold' }
+          }}
+        />
+        <Stack.Screen
+          name="Tomar Fotos"
+          component={TakeCameraScreen}
+          options={{
+            headerStyle: { backgroundColor: 'purple' },
+            headerTintColor: 'white',
+            headerTitleStyle: { fontWeight: 'bold' }
+          }}
+        />
+        <Stack.Screen
+          name="Subir Videos"
+          component={UploadVideoScreen}
           options={{
             headerStyle: { backgroundColor: 'purple' },
             headerTintColor: 'white',
