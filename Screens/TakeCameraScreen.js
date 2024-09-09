@@ -129,13 +129,7 @@ const styles = StyleSheet.create({
   controls: {
     flex: 0.5,
   },
-  button: {
-    height: 40,
-    borderRadius: 6,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+
   text: {
     fontWeight: 'bold',
     fontSize: 16,
@@ -146,8 +140,5 @@ const styles = StyleSheet.create({
   camera: {
     flex: 5,
     borderRadius: 20,
-  },
-  topControls: {
-    flex: 1,
   },
 });

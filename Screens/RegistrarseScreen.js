@@ -125,7 +125,7 @@ export default function RegistrarseScreen() {
                         setValue(item.value);
                         setIsFocus(false);
                     }}
-                    style={styles.dropdown} // Aplicar estilo aquí
+                    style={styles.dropdown}
                 />
             </View>
 
@@ -163,7 +163,7 @@ const styles = StyleSheet.create({
         marginVertical: 10,
         paddingVertical: 10,
         width: '100%',
-        paddingHorizontal: 10, // Añadir padding horizontal
+        paddingHorizontal: 10,
     },
     input: {
         paddingHorizontal: 15,
